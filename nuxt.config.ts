@@ -12,7 +12,7 @@ app: {
       ],
     }
   },
-  modules: ['@nuxtjs/tailwindcss', '@nuxt/content'],
+  modules: ['@nuxtjs/tailwindcss', '@nuxt/content', 'nuxt-icon'],
   content: {
     highlight: {
       theme: 'material-palenight'

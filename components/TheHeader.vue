@@ -1,5 +1,4 @@
-<script setup lang="ts">
-import { MoonIcon, StarIcon } from '@heroicons/vue/24/solid'
+<script setup>
 </script>
 
 <template>
@@ -14,8 +13,9 @@ import { MoonIcon, StarIcon } from '@heroicons/vue/24/solid'
                 <p>تواصل بنا</p>
                 <!-- Islamic Icon -->
                 <div class="flex flex-row relative">    
-                <StarIcon class="h-3 w-3 text-yellow-700 top-0 right-0 absolute"/>
-                <MoonIcon class="h-7 w-7 text-yellow-700"/>
+                <Icon name="material-symbols:star" class="h-3 w-3 text-yellow-700 top-0 right-0 absolute"/>
+                <Icon name="ph:moon-fill" class="h-7 w-7 text-yellow-700"  />
+                <!-- <Icon name="ph:moon-fill" size="96" color="#15CA82"  /> -->
                 </div>
                 </div>
             </div>

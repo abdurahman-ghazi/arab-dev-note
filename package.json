@@ -16,7 +16,7 @@
     "push-dir": "^0.4.1"
   },
   "dependencies": {
-    "@heroicons/vue": "^2.0.12",
-    "@tailwindcss/typography": "^0.5.7"
+    "@tailwindcss/typography": "^0.5.7",
+    "nuxt-icon": "^0.1.7"
   }
 }
